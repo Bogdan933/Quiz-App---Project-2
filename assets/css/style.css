@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
-body {
+:root {
     background-color: #BEC5AD;
 }
 
@@ -70,7 +70,10 @@ button designing, targeting both play button and highscores button
  }
  
  .btn:hover {
-    cursor: pointer
+    cursor: pointer;
+    box-shadow: 0 0.5rem 0 rgba(8, 114, 244, 0.6);
+    transition: transform 120ms;
+    transform: scale(1.03);
     
  }
 
@@ -88,7 +91,7 @@ button designing, targeting both play button and highscores button
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255,255,0,0.5);
  }
 
- .fa-star {
-    font-size: 5.5rem;
-    margin-left: 3rem;
+ i.fas.fa-star {
+    font-size: 2.5rem;
+    margin-left: 1rem;
  }
