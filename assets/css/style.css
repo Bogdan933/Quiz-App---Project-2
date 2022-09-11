@@ -71,7 +71,15 @@ button designing, targeting both play button and highscores button
  
  .btn:hover {
     cursor: pointer
-    box-shadow: 0 0.5rem 1.5rem 0 rgba(8, 114, 244, 0.6);
-    transition: transform 120ms;
-    transform: scale(1.03);
+    
+ }
+
+ .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+ }
+
+ #highscore-btn {
+    background: linear-gradient(90deg, rgb(50, 168, 82) 0%, rgb(43, 148, 71) 100%);
  }
