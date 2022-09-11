@@ -81,5 +81,14 @@ button designing, targeting both play button and highscores button
  }
 
  #highscore-btn {
-    background: linear-gradient(90deg, rgb(50, 168, 82) 0%, rgb(43, 148, 71) 100%);
+    background: linear-gradient(90deg, rgb(50,168,82) 0%, rgb(43,148,71) 100%);
+ }
+
+ #highscore-btn:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255,255,0,0.5);
+ }
+
+ .fa-star {
+    font-size: 5.5rem;
+    margin-left: 3rem;
  }
