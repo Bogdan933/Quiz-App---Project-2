@@ -13,8 +13,9 @@
 
 h1 {
     font-size: 5.4rem;
-    margin-bottom: 5rem;
     color: #fff;
+    margin-bottom: 5rem;
+    
 }
 
 h2 {
@@ -72,7 +73,7 @@ button designing, targeting both play button and highscores button
  .btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
-    transition: transform 120ms;
+    transition: transform 150ms;
     transform: scale(1.03);
     
  }
