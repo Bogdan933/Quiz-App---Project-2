@@ -9,5 +9,8 @@
 <li>Update: I have fixed the issue, it seems there was a spelling misstake on the file paths.
 <hr>
 <p>2.</ul>
-<p>Trying to make the question button smaller but yet again it does not respond to changes</p>
+<p>Trying to make the question button smaller but yet again it does not respond to changes.</p>
 <img src="https://i.imgur.com/yNKkE9F.png">
+<li>Solution was reducing font-size, min-widh and width by 50%</li>
+<p></p>
+<img src="https://i.imgur.com/F0DvL4Y.png">
