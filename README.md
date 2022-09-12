@@ -1,4 +1,8 @@
 <h1>Quiz Game</h1>
+
+<p> Declaring the question array structure with choices will be added several times for more questions</p>
+<img src="https://i.imgur.com/QTasMCi.png">
+
 <p> Bugs:</p>
 <img src="https://i.imgur.com/bODTodv.png">
 <p>1.</ul>
