@@ -8,7 +8,7 @@ let currentQuestion = {}
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
-let availableQUestions = [];
+let availableQuestions = [];
 
 let Questions = [
     {
@@ -53,5 +53,22 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    getNewQUestion()
+    getNewQuestion()
+}
+/*Keeping track of score */
+getNewQUestion = () => {
+    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
+        localStorage.setItem('mostRecentScore', score);
+
+        return window.location.assign('/end.html');
+    }
+    /* Incrementing by 1 each question */
+    questionCounter++
+    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+    /* Calculating what question we are on and corespending that with the percentage we are on */ 
+    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
+    /* Calculating the value of the questionsIndex, and keeping track what question we are on */
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+    currentQuestion = availableQuestions[questionsIndex]
+    question.innerText = currentQuestion.question
 }
