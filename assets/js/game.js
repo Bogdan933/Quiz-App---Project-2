@@ -44,3 +44,14 @@ let Questions = [
         answer: 4,
     }
 ]
+
+const SCORE_POINTS = 100;
+const MAX_QUESTIONS = 4; 
+
+/* short comand syntax for the startGame function */
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQUestion()
+}
