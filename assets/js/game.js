@@ -17,6 +17,30 @@ let Questions = [
         choice2: '100',
         choice3: '55',
         choice4: '70',
-        answer: 70,
+        answer: 4,
+    },
+    {
+        question: "What is the smallest country in the world?",
+        choice1: "The vatican",
+        choice2: "Aruba",
+        choice3: "Monaco",
+        choice4: "France",
+        answer: 1,
+    },
+    {
+        question: "The famous line 'Who you gonna call' is from what movie?",
+        choice1: "Rambo",
+        choice2: "Ghost Busters",
+        choice3: "Terminator",
+        choice4: "Police Academy",
+        answer: 2,
+    },
+    {
+        question: "The four leaf clover represents what?",
+        choice1: "Eternal Love",
+        choice2: "Power",
+        choice3: "Bad Omen",
+        choice4: "Luck",
+        answer: 4,
     }
 ]
