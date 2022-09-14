@@ -79,7 +79,7 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion['choice' + number];
     });
 
-    availableQuestions.splice[questionsIndex, 1];
+    availableQuestions.splice(questionsIndex, 1);
     acceptingAnswers = true;
 };
 /*adding click event listener for points and increment by 100 points for correct answer*/
