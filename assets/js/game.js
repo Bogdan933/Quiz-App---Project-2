@@ -56,7 +56,7 @@ startGame = () => {
     getNewQuestion();
 }
 /*Keeping track of score */
-getNewQUestion = () => {
+getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
         localStorage.setItem('mostRecentScore', score);
 
