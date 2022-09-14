@@ -49,6 +49,10 @@ It didn't fix the targeting bug.
 2.
 - Trying to make the question button smaller but yet again it does not respond to changes.
 ![Bug2](https://i.imgur.com/yNKkE9F.png)
+- Opening the preview inside Gitpod browser shows the updated questions and score.
+![bug5](https://i.imgur.com/uwcg0Ye.png)
+- But when trying to open in another browser, the working changes dont apply and get the following display.
+![Bug5](https://i.imgur.com/I0gmSOc.png)
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
