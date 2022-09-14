@@ -1,4 +1,4 @@
-<h1>Quiz Game</h1>
+# Quiz Game
 
 <p> Declaring the question array structure with choices will be added several times for more questions</p>
 <img src="https://i.imgur.com/QTasMCi.png">
@@ -27,3 +27,4 @@
 <p>4.</p>
 <p>It seems i got an error when trying to use the shorthand syntax for the function where when I would try to get through the validator i got the following message <strong>''arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')''</strong></p>
 <li>On stackoverflow i found the a solution where i need to add as comment <strong>/*jshint esversion: 6 */</strong> and it fixed the issue.</li> 
+<a href = "https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6" target="_blank">Link to stackoverflow solution</a>
