@@ -1,4 +1,5 @@
 /*jshint esversion: 6 */
+/*solution found on stack overflow */
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
@@ -53,9 +54,9 @@ const MAX_QUESTIONS = 4;
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availableQuestions = [...questions]
+    availableQuestions = [...questions];
     getNewQuestion();
-}
+};
 /*Keeping track of score */
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
@@ -64,7 +65,7 @@ getNewQuestion = () => {
         return window.location.assign('/end.html');
     }
     /* Incrementing by 1 each question */
-    questionCounter++
+    questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
     /* Calculating what question we are on and corespending that with the percentage we are on */ 
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
@@ -74,41 +75,41 @@ getNewQuestion = () => {
     question.innerText = currentQuestion.question;
     /*set new const for data-number so we know what choices we are clicking on*/
     choices.forEach(choice => {
-        const number = choice.dataset['number'];
+        const number = choice.dataset['...number'];
         choice.innerText = currentQuestion['choice' + number];
-    })
+    });
 
     availableQuestions.splice[questionsIndex, 1];
     acceptingAnswers = true;
-}
+};
 /*adding click event listener for points and increment by 100 points for correct answer*/
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if (!acceptingAnswers) return;
         acceptingAnswers = false;
-        const selectedChoice = e.target
-        const selectAnswer = selectedChoice.dataset['number']
+        const selectedChoice = e.target;
+        const selectAnswer = selectedChoice.dataset['...number'];
 
-        let classToaApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+        let classToaApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToaApply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(SCORE_POINTS);
         }
         
-        selectedChoice.parentElement.classList.add(classToaApply)
+        selectedChoice.parentElement.classList.add(classToaApply);
         /* everytime we are clicking right or wrong a timer will show*/
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToaApply)
+            selectedChoice.parentElement.classList.remove(classToaApply);
             /*will get us the next question*/
             getNewQuestion();
         
-        }, 1000)
-    })
-})
+        }, 1000);
+    });
+});
 
 incrementScore = num => {
     score +=num;
     scoreText.innerText = score;
-}
+};
 
 startGame();
