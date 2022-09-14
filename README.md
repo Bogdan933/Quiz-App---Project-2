@@ -21,4 +21,5 @@
 <hr>
 <p>3.</p>
 <p>When running through developer tools i get the following not define error</p>
+<li>It seems it was only a spelling error on Choice instead of writting choices, line 84 on game.js file</li>
 <img src ="https://i.imgur.com/zDljDY2.png">

@@ -81,7 +81,7 @@ getNewQuestion = () => {
     acceptingAnswers = true;
 }
 /*adding click event listener for points and increment by 100 points for correct answer*/
-choice.forEach(choice => {
+choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if (!acceptingAnswers) return;
         acceptingAnswers = false;
