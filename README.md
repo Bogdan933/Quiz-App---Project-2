@@ -2,7 +2,7 @@
 
 <p> Declaring the question array structure with choices will be added several times for more questions</p>
 <img src="https://i.imgur.com/QTasMCi.png">
-
+<hr>
 <p> Bugs:</p>
 <img src="https://i.imgur.com/bODTodv.png">
 <p>1.</ul>
@@ -18,3 +18,7 @@
 <li>Solution was reducing font-size, min-widh and width by 50%</li>
 <p></p>
 <img src="https://i.imgur.com/F0DvL4Y.png">
+<hr>
+<p>3.</p>
+<p>When running through developer tools i get the following not define error</p>
+<img src ="https://i.imgur.com/zDljDY2.png">

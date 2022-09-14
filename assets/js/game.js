@@ -100,6 +100,14 @@ choice.forEach(choice => {
             selectedChoice.parentElement.classList.remove(classToaApply)
             /*will get us the next question*/
             getNewQuestion();
-        })
+        
+        }, 1000)
     })
 })
+
+incrementScore = num => {
+    score +=num;
+    scoreText.innerText = score;
+}
+
+startGame();
