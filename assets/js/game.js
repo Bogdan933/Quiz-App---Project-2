@@ -53,7 +53,7 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    getNewQuestion()
+    getNewQuestion();
 }
 /*Keeping track of score */
 getNewQUestion = () => {
@@ -64,11 +64,20 @@ getNewQUestion = () => {
     }
     /* Incrementing by 1 each question */
     questionCounter++
-    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
     /* Calculating what question we are on and corespending that with the percentage we are on */ 
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
     /* Calculating the value of the questionsIndex, and keeping track what question we are on */
-    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions[questionsIndex]
-    question.innerText = currentQuestion.question
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionsIndex];
+    question.innerText = currentQuestion.question;
+    /*set new const for data-number so we know what choices we are clicking on*/
+    choices.forEach(choice => {
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['choice' + number];
+    })
+
+    availableQuestions.splice[questionsIndex, 1];
+    acceptingAnswers = true;
 }
+
