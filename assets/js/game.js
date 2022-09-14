@@ -80,4 +80,26 @@ getNewQUestion = () => {
     availableQuestions.splice[questionsIndex, 1];
     acceptingAnswers = true;
 }
+/*adding click event listener for points and increment by 100 points for correct answer*/
+choice.forEach(choice => {
+    choice.addEventListener('click', e => {
+        if (!acceptingAnswers) return;
+        acceptingAnswers = false;
+        const selectedChoice = e.target
+        const selectAnswer = selectedChoice.dataset['number']
 
+        let classToaApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+
+        if (classToaApply === 'correct') {
+            incrementScore(SCORE_POINTS)
+        }
+        
+        selectedChoice.parentElement.classList.add(classToaApply)
+        /* everytime we are clicking right or wrong a timer will show*/
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToaApply)
+            /*will get us the next question*/
+            getNewQuestion();
+        })
+    })
+})
