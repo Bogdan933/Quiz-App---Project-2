@@ -23,3 +23,7 @@
 <p>When running through developer tools i get the following not define error</p>
 <li>It seems it was only a spelling error on Choice instead of writting choices, line 84 on game.js file</li>
 <img src ="https://i.imgur.com/zDljDY2.png">
+<hr>
+<p>4.</p>
+<p>It seems i got an error when trying to use the shorthand syntax for the function where when I would try to get through the validator i got the following message <strong>''arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')''</strong></p>
+<li>On stackoverflow i found the a solution where i need to add as comment <strong>/*jshint esversion: 6 */</strong> and it fixed the issue.</li> 

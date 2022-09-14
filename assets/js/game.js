@@ -1,10 +1,11 @@
+/*jshint esversion: 6 */
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressbarfull');
 
-let currentQuestion = {}
+let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
@@ -43,7 +44,7 @@ let Questions = [
         choice4: "Luck",
         answer: 4,
     }
-]
+];
 
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 4; 
@@ -52,7 +53,7 @@ const MAX_QUESTIONS = 4;
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availableQuestions = [...questions];
+    availableQuestions = [...questions]
     getNewQuestion();
 }
 /*Keeping track of score */
