@@ -4,7 +4,7 @@ In this section, you will include one or two paragraphs providing an overview of
 
 For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
 
-![Responsive Mockup](https://i.imgur.com/utsLwPC.png)
+![Responsive Mockup](https://i.imgur.com/zIOwlmX.png)
 
 ## Features 
 
@@ -14,17 +14,18 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Play..................
-  - HighScore........ 
+  - Play button that initiates the start of the quiz.
+  - HighScore button provies the user with a history of scores from other users or an user who played several times. 
 
-![Nav Bar](https://i.imgur.com/utsLwPC.png)
+![Nav Bar](https://i.imgur.com/MJkkXDM.png)
 
 - __The landing page image__
 
-  - The landing includes a soothing background color overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - This section introduces the user to the question's with soothing colours to grab their attention on the questions from the start.
+  
+  - User is presented with information on what question they are on and an progress bar indicating the stages of the quiz.
 
-![Landing Page](https://i.imgur.com/8XFUrqV.png)
+![Landing Page](https://i.imgur.com/e5Q3PEH.png)
 
 
 
@@ -34,8 +35,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Able to Save highscores
-- 
+- Several question added.
+- Longer highscore save list.
 
 ## Testing and Fixed Bugs
 1.
