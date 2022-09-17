@@ -1,8 +1,9 @@
 # Quiz Game
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+This quiz game is made to awaken curiosity on a wide degree of topics from mathematical questions to geography or movie knowledge, and with time it will grow, with more difficult questions and in the future be able to choose difficulty.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+Game is designed for everybody curious no matter the types of questions. The goal of the quiz is to make the player engaged with the different  topics and hopefully with the highscore list the player will try several times to beat his/her own score. 
+
 
 ![Responsive Mockup](https://i.imgur.com/zIOwlmX.png)
 
@@ -27,7 +28,12 @@ In this section, you should go over the different parts of your project, and des
 
 ![Landing Page](https://i.imgur.com/e5Q3PEH.png)
 
+- __The end game page__
 
+  - User is shown his score at the top of the page and is asked to enter name for saving score.
+  - User is able to either play again or go home and access the highscore  tab.
+
+![Endgame Page](https://i.imgur.com/V13Q6Kq.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -37,6 +43,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - Several question added.
 - Longer highscore save list.
+- Highscore button on endgame page.
+- Automatic highscore list display after game ends
+- Show correct answer when wrong then go next question.
+- Different difficulties of questions categorised by difficulty.
 
 ## Testing and Fixed Bugs
 1.
