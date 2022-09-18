@@ -10,6 +10,7 @@ let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+/*Declaring questions variable*/
 let questions = [{
     question: 'What is 30 + 40?',
     choice1: '10',
@@ -39,10 +40,15 @@ let questions = [{
     choice4: "Luck",
     answer: 4,
 }];
+
+/*Declaring points per 'right' answer*/
 const SCORE_POINTS = 100;
+
+/*Declaring questions limit*/
 const MAX_QUESTIONS = 4;
 
-/* short comand syntax for the startGame function */
+/* Short comand syntax for the startGame function
+    Setting start of game variables */
 
 startGame = () => {
     questionCounter = 0;
@@ -59,14 +65,20 @@ getNewQuestion = () => {
     }
 
     /* Incrementing by 1 each question */
+    /* Calculating what question we are on to display 1/4,2/4, etc */
     questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
-    /* Calculating what question we are on and corespending that with the percentage we are on */
+    
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
-    /* Calculating the value of the questionsIndex, and keeping track what question we are on */
+    /* Calculating the value of the questionsIndex*/
+    
+    /*Calculating the value of the question index*/
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+    
+    /*Keeping track of what question we are on */
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
+    
     /*set new const for data-number so we know what choices we are clicking on*/
     choices.forEach(choice => {
         const number = choice.dataset['number'];
@@ -89,7 +101,7 @@ choices.forEach(choice => {
             incrementScore(SCORE_POINTS);
         }
         selectedChoice.parentElement.classList.add(classToApply);
-        /* everytime we are clicking right or wrong a timer will show*/
+        /* everytime we are clicking right or wrong */
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             /*will get us the next question*/
