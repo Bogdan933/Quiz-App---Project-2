@@ -36,7 +36,7 @@ In this section, you should go over the different parts of your project, and des
 ![Endgame Page](https://i.imgur.com/V13Q6Kq.png)
 
 
--__HighScores and Leaderboards__
+- __HighScores and Leaderboards__
 
   - After name is saved the player is presented with a ranking list of previous highscored, where the highest points are at the top.
 
@@ -83,7 +83,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 - JS
-  - 
+  - No game breaking errors found other then few not defiend and not used variables when passing through the official [Beautifytools](https://beautifytools.com/javascript-validator.php)
 
 ### Unfixed Bugs
 

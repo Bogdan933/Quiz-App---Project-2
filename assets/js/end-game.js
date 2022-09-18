@@ -11,12 +11,12 @@ const MAX_HIGH_SCORES = 5;
 
 finalScore.innerText = mostRecentScore;
 
-/*When a key is presed this will re-enable the save button */ 
+/*When a key is pressed this will re-enable the save button */ 
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
 });
 
-/*This allows us to click the button and it dosen't just automatically refresh */
+/*This allows us to click the button and it doesn't just automatically refresh */
 saveHighScore = e => {
     e.preventDefault();
     /* */
