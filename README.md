@@ -113,6 +113,22 @@ You can break the credits section up into Content and Media, depending on what y
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
+
+__Programs Used__
+  - Git was used for using the Gitpod terminal to commit to Git and push to Github.
+  - Github - Github was used to store the project code and display the project in Github Pages. (https://github.com/)
+  - Font Awesome - Font Awesome was used to add icons for the social links in the footer.
+  - Google Dev Tools- Google dev tools where used to test and troubleshoot the webpage as well as fix problems with responsive design   and styling.
+  - Google Fonts - Google fonts where used to import every font used in the website.
+  - Imgur was used to store the images used for the snippets in this readme document. (https://imgur.com/)
+
+### Screens
+  - The quiz app has responsive design.
+      - Normal desktop
+      - 1280px wide and down
+      - 992px wide and down
+      - 748px wide and down
+
 ### Media
 
 - No media was used for the app.
