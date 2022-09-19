@@ -122,6 +122,20 @@ __Programs Used__
   - Google Fonts - Google fonts where used to import every font used in the website.
   - Imgur was used to store the images used for the snippets in this readme document. (https://imgur.com/)
 
+## Deployment
+
+   ### via gitpod
+   -  
+
+   ### via github pages
+   - Log in to Github.
+   - Go to the repositories.
+   - Then take this project Quiz App.
+   - Go to the settings link.
+   - Then click on the pages link that is found on the navigations bar on the left side.
+   - Check the source section on the page, and choose main instead of none.
+   - Then click Save. After a few minutes you can see your live Github pages site is now deployed and the URL shown at the top of the page.
+
 ### Screens
   - The quiz app has responsive design.
       - Normal desktop
