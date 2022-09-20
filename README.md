@@ -195,8 +195,6 @@ The live link can be found here - https://bogdan933.github.io/Quiz-App---Project
       - 992px wide and down
       - 748px wide and down
 
-- SEO and lighthouse scores 
-<img src="https://i.imgur.com/dK6J9jw.png">
 
 - Lighthouse mobile score
 <img src="https://i.imgur.com/OIcOfJk.png">
