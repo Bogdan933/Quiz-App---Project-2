@@ -4,7 +4,32 @@ This quiz game is made to awaken curiosity on a wide degree of topics from mathe
 
 Game is designed for everybody curious no matter the types of questions. The goal of the quiz is to make the player engaged with the different  topics and hopefully with the highscore list the player will try several times to beat his/her own score. 
 
+## User stories
+- The color combination is soothing and fits with everything.
+- Leaderboard feature is fun to have.
+- Questions were entertaining
+- Progress bar is contrast adds to immersion.
 
+
+# Wireframes 
+Since this application was designed with mobile users in focus I will include the frameworks for mobile devices since it better shows the symmetry.
+- Main page framework
+
+![Main page](https://i.imgur.com/IJrbN5X.png)
+
+- Questions framework
+
+![Questions](https://i.imgur.com/o4ztuJy.png)
+
+- Saving score framework
+
+![Saving score](https://i.imgur.com/1ftDEYD.png)
+
+- leaderboard framework
+
+![leaderboard](https://i.imgur.com/A7vVjYj.png)
+
+## Responsive Mockup
 ![Responsive Mockup](https://i.imgur.com/zIOwlmX.png)
 
 ## Features 
@@ -42,9 +67,12 @@ In this section, you should go over the different parts of your project, and des
 
   ![Highscore-Leaderboards](https://i.imgur.com/ZbPquiv.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+# Color Scheme
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Color Scheme](https://i.imgur.com/YpbifNr.png)
+- White was used for the text outside buttons for a sharper contrast again the space cadet blue that is the background color.
+
+- The buttons are made from a gradient viridian green to yellow green crayola for a more relaxing look.
 
 ### Features Left to Implement
 
@@ -55,8 +83,19 @@ In addition, you may also use this section to discuss plans for additional featu
 - Show correct answer when wrong then go next question.
 - Different difficulties of questions categorised by difficulty.
 
-## Testing and Fixed Bugs
-1.
+### Testing and fixed Bugs
+- The website was tested manually with Google dev tools on the following devices:
+
+- iPhone SE (2nd generation)
+- iPhone 11 pro
+- iPhone 12/13 pro max
+- iPad
+- Galaxy S10
+- Galaxy S20 Ultra
+- Galaxy Note 20
+
+
+Bug 1.
 - When trying to target the 4 questions buttons to make them visible the element is not responsive.
 
 - <strong>Fixed:</strong>Noticed error in file path to javascript inside the game.html file, aswell as the script src path on line 51 inside game.html
@@ -64,17 +103,26 @@ In addition, you may also use this section to discuss plans for additional featu
 It didn't fix the targeting bug.
 - Update: Issue fixed, spelling misstake on the file paths.
 ![Bug1](https://i.imgur.com/bODTodv.png)
-2.
+<hr>
+
+Bug 2.
 - Trying to make the question button smaller but it does not target.
 ![Bug2](https://i.imgur.com/yNKkE9F.png)
 
-3.
-- Opening the preview inside Gitpod browser shows the updated questions and score.
-![bug5](https://i.imgur.com/uwcg0Ye.png)
-- But when trying to open in another browser, the working changes dont apply and get the following display.
-![Bug5](https://i.imgur.com/I0gmSOc.png)
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+<hr>
 
+Bug 3.
+- Opening the preview inside Gitpod browser shows the updated questions and score.
+![bug3](https://i.imgur.com/uwcg0Ye.png)
+- Ongoing bug when trying to open in another browser, the working changes dont apply and get the the base html text
+![Bug3](https://i.imgur.com/I0gmSOc.png)
+- Bug was fixed when discovering several spelling mistakes while trouble shooting.
+
+Bug 4.
+- I had several issues with deployment, where in every file, there was a forward slash in the file paths to both CSS and javascript files.
+And this caused the website not to load anything, only the plain Html text.
+It took several attempts to identify since inside the javascript file game.js line 64. There is a return with the allocated path to endgame.html, and that also includes a forward slash /.
+After all file paths were thoroughly checked, the website could load everything. This fixed the issue.
 
 ### Validator Testing 
 
@@ -87,7 +135,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+-
 
 ## Deployment
 
@@ -120,21 +168,25 @@ __Programs Used__
   - Font Awesome - Font Awesome was used to add icons for the social links in the footer.
   - Google Dev Tools- Google dev tools where used to test and troubleshoot the webpage as well as fix problems with responsive design   and styling.
   - Google Fonts - Google fonts where used to import every font used in the website.
-  - Imgur was used to store the images used for the snippets in this readme document. (https://imgur.com/)
+  - Google devs lighthouse testing.
 
 ## Deployment
 
-   ### via gitpod
-   -  
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-   ### via github pages
-   - Log in to Github.
-   - Go to the repositories.
-   - Then take this project Quiz App.
-   - Go to the settings link.
-   - Then click on the pages link that is found on the navigations bar on the left side.
-   - Check the source section on the page, and choose main instead of none.
-   - Then click Save. After a few minutes you can see your live Github pages site is now deployed and the URL shown at the top of the page.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master/Main Branch
+  - Once the right branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+#### Forking and cloning
+- Forking is creating a new repository with the same content as the one you forked. 
+    - This is done by going to the repository you want to clone, and clicking the "fork" icon in the top right corner.
+- Cloning is used for making local copies of your code.
+    - Cloning a repository with github desktop is easily done by clicking the green "code" button and choosing the "open in github desktop" option. If you do not have a clone already, github desktop will ask if you want to create a local clone. Click yes.
+    - If you do it with git you have to write "git clone" and then specify what you want to clone.
+
+The live link can be found here - https://bogdan933.github.io/Quiz-App---Project-2/
 
 ### Screens
   - The quiz app has responsive design.
@@ -142,6 +194,15 @@ __Programs Used__
       - 1280px wide and down
       - 992px wide and down
       - 748px wide and down
+
+- SEO and lighthouse scores 
+<img src="https://i.imgur.com/dK6J9jw.png">
+
+- Lighthouse mobile score
+<img src="https://i.imgur.com/OIcOfJk.png">
+- Lighthouse Desktop score
+<img src="https://i.imgur.com/AwjharG.png">
+
 
 ### Media
 
