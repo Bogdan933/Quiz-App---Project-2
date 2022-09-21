@@ -135,16 +135,20 @@ After all file paths were thoroughly checked, the website could load everything.
 
 ### Unfixed Bugs
 
--
+- After pressing a questions the hover bar is locked on hover when the next questions comes in line. I tried working around the box shadow and the hover:disable after hover is initiated, i cant pin the problem down.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This game was deployed to github pages.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master/Main Branch
-  - Once the right branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- Open the repository settings.
+- Go to "pages" (found under "code and automation").
+- Choose which branch to build from. You want to choose "main". Do not forget to save the settings.
+- (If needed, choose a custom domain)
+- Open the repository in github desktop (I used github desktop. You can do this in git too.)
+- Choose to create a local clone (the first time you open your repository in github desktop, there should be a window asking if you want to create a clone)
+- Copy the link to your deployed website (which can be found in the github pages settings, where you chose which branch to build from) and make sure it is operating as expected.
+- The deployed website will now be updated when you push anything new to the repository.
 
 The live link can be found here - https://bogdan933.github.io/Quiz-App---Project-2/ 
 
@@ -167,15 +171,6 @@ __Programs Used__
   - Google Dev Tools- Google dev tools where used to test and troubleshoot the webpage as well as fix problems with responsive design   and styling.
   - Google Fonts - Google fonts where used to import every font used in the website.
   - Google devs lighthouse testing.
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master/Main Branch
-  - Once the right branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 #### Forking and cloning
 - Forking is creating a new repository with the same content as the one you forked. 
