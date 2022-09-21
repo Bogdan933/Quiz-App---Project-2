@@ -21,7 +21,7 @@ let questions = [{
     answer: 4,
 }, {
     question: "What is the smallest country in the world?",
-    choice1: "The vatican",
+    choice1: "The Vatican",
     choice2: "Aruba",
     choice3: "Monaco",
     choice4: "France",

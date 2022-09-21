@@ -155,9 +155,12 @@ The live link can be found here - https://bogdan933.github.io/Quiz-App---Project
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+I used several videos and stackoverflow threads for inspirations.
+- [Youtube video 1]("https://www.youtube.com/watch?v=utC-8xeEQQA&ab_channel=GeeksforGeeks")
+- [Youtube video 2]("https://www.youtube.com/watch?v=wk1Fbqh7Tew&ab_channel=BroCode")
+- [Youtube video 3]("https://www.youtube.com/watch?v=nCIjHTlztNg&ab_channel=MikeDane")
+- [Stackoverflow]("https://stackoverflow.com/questions/68687270/increment-score-in-a-quiz-game-based-on-selecting-the-right-answers-with-an-obje") inspiration for points increment.
+- [Stackoverflow](https://stackoverflow.com/questions/13490002/javascript-loop-in-a-simple-quiz) questions array looping inspiration.
 
 ### Content 
 - The text for the Home page was taken from Wikipedia Article A
