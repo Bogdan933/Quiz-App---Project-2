@@ -50,14 +50,14 @@ const MAX_QUESTIONS = 4;
 /* Short comand syntax for the startGame function
     Setting start of game variables */
 
-startGame = () => {
+ const startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
 };
 /*Keeping track of score */
-getNewQuestion = () => {
+const getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
 
@@ -110,7 +110,7 @@ choices.forEach(choice => {
     });
 });
 /*incrementing score*/
-incrementScore = num => {
+const incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 };
