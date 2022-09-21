@@ -156,7 +156,7 @@ The live link can be found here - https://bogdan933.github.io/Quiz-App---Project
 ## Credits 
 
 I used several videos and stackoverflow threads for inspirations.
-- [Youtube video 1]("https://www.youtube.com/watch?v=utC-8xeEQQA&ab_channel=GeeksforGeeks")
+- [Youtube video 1](https://www.youtube.com/watch?v=utC-8xeEQQA&ab_channel=GeeksforGeeks)
 - [Youtube video 2]("https://www.youtube.com/watch?v=wk1Fbqh7Tew&ab_channel=BroCode")
 - [Youtube video 3]("https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3747s&ab_channel=BrianDesign")
 - [Youtube video 4]("https://www.youtube.com/watch?v=nCIjHTlztNg&ab_channel=MikeDane")
