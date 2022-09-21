@@ -1,10 +1,11 @@
-/*jshint esversion: 6 */
-/*solution found on stack overflow */
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
+
+/*Declaring variebls*/
+
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
