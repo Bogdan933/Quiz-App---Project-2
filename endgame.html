@@ -15,14 +15,14 @@
         <div id="end" class="flex-center flex-column">
             <h1 id="finalScore">0</h1>
             <form class="end-form-container">
-                <h2 id="end-text">Enter your name to save score</h2>
+                <h2 aria-label="Enter name to save score" id="end-text">Enter your name to save score</h2>
 
                 <input type="text" name="name" id="username" placeholder="Enter your name">
-                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)"
+                <button aria-label="Save score button" class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)"
                     disabled>Save</button>
             </form>
-            <a href="game.html" class="btn">Play Again</a>
-            <a href="index.html" class="btn">Go Home<i class="fas fa-home"></i></a>
+            <a aria-label="Play again" href="game.html" class="btn">Play Again</a>
+            <a aria-label="Back to the home page" href="index.html" class="btn">Go Home<i class="fas fa-home"></i></a>
         </div>
     </div>
     <script src="assets/js/end-game.js"></script>
