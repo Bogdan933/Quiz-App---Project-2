@@ -124,6 +124,10 @@ And this caused the website not to load anything, only the plain Html text.
 It took several attempts to identify since inside the javascript file game.js line 64. There is a return with the allocated path to endgame.html, and that also includes a forward slash /.
 After all file paths were thoroughly checked, the website could load everything. This fixed the issue.
 
+Bug 5.
+Update 1:
+- Trying to get the timer to reset after each question is being answered.
+
 ### Validator Testing 
 
 - HTML
