@@ -164,7 +164,8 @@ I used several videos and stackoverflow threads for inspirations.
 - [Stackoverflow](https://stackoverflow.com/questions/13490002/javascript-loop-in-a-simple-quiz) questions array looping inspiration.
 - I also want to credit my class colleagues Mia and Kayla with feed back on testing and balling some ideas.
 - I want to thank Alexander from the tutor support for helping me pinpoint the deployment issue.
-
+- Incremented score reading was done on this stack Overflow post.
+  [StackOverflow time increment for score](https://stackoverflow.com/questions/29022829/increment-score-using-javascript)
 
 ### Content 
 - The text for the Home page was taken from Wikipedia Article A
