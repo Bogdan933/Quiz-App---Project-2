@@ -15,40 +15,47 @@ let availableQuestions = [];
 
 /*Declaring questions variable*/
 let questions = [{
-    question: 'What do you call it when a bowler makes three strikes in a row',
-    choice1: 'Turkey',
-    choice2: 'Strike',
-    choice3: 'Bingo',
-    choice4: 'Whole in One',
+    question: 'What is 30 + 40?',
+    choice1: '10',
+    choice2: '100',
+    choice3: '55',
+    choice4: '70',
+    answer: 4,
+}, {
+    question: "What is the smallest country in the world?",
+    choice1: "The Vatican",
+    choice2: "Aruba",
+    choice3: "Monaco",
+    choice4: "France",
+    answer: 1,
+}, {
+    question: "The famous line 'Who you gonna call' is from what movie?",
+    choice1: "Rambo",
+    choice2: "Ghost Busters",
+    choice3: "Terminator",
+    choice4: "Police Academy",
     answer: 2,
 }, {
-    question: "Whats the national sport of Canada?",
-    choice1: "Lacrosse",
-    choice2: "Hockey",
-    choice3: "Frisbee",
-    choice4: "Moose wrestling",
-    answer: 1,
+    question: "The four leaf clover represents what?",
+    choice1: "Eternal Love",
+    choice2: "Power",
+    choice3: "Bad Omen",
+    choice4: "Luck",
+    answer: 4,
 }, {
-    question: "What does NBA stand for?",
-    choice1: "National Basketball Association",
-    choice2: "Non Binary Association",
-    choice3: "National Bowling Association",
-    choice4: "Neutral Biblic Association",
-    answer: 1,
-},{
-    question: "How long is an Olympic swimming pool?",
-    choice1: "50m",
-    choice2: "45m",
-    choice3: "60m",
-    choice4: "75m",
-    answer: 1,
+    question: "What is the biggest organ in the body",
+    choice1: "Head",
+    choice2: "Skin",
+    choice3: "Leg",
+    choice4: "Stomach",
+    answer: 2,
 },];
 
 /*Declaring points per 'right' answer*/
 const SCORE_POINTS = 100;
 
 /*Declaring questions limit*/
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 5;
 
 /* Short comand syntax for the startGame function
     Setting start of game variables */

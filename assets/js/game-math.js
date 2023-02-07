@@ -22,48 +22,6 @@ let questions = [{
     choice4: '70',
     answer: 4,
 }, {
-    question: "What is the smallest country in the world?",
-    choice1: "The Vatican",
-    choice2: "Aruba",
-    choice3: "Monaco",
-    choice4: "France",
-    answer: 1,
-}, {
-    question: "The famous line 'Who you gonna call' is from what movie?",
-    choice1: "Rambo",
-    choice2: "Ghost Busters",
-    choice3: "Terminator",
-    choice4: "Police Academy",
-    answer: 2,
-}, {
-    question: "The four leaf clover represents what?",
-    choice1: "Eternal Love",
-    choice2: "Power",
-    choice3: "Bad Omen",
-    choice4: "Luck",
-    answer: 4,
-}, {
-    question: "What is the biggest organ in the body",
-    choice1: "Head",
-    choice2: "Skin",
-    choice3: "Leg",
-    choice4: "Stomach",
-    answer: 2,
-}, {
-    question: "How long is an Olympic swimming pool?",
-    choice1: "50m",
-    choice2: "45m",
-    choice3: "60m",
-    choice4: "75m",
-    answer: 1,
-}, {
-    question: "In witch language does 'konnichiwa' mean 'hello'?",
-    choice1: "Thai",
-    choice2: "Japanese",
-    choice3: "Cantonese",
-    choice4: "Chinese",
-    answer: 2,
-}, {
     question: "What is an 'Integer'?",
     choice1: "A whole number",
     choice2: "Half a number",
@@ -71,26 +29,26 @@ let questions = [{
     choice4: "JavaScript function",
     answer: 1,
 }, {
-    question: "How many oceans are on Earth?",
-    choice1: "2",
-    choice2: "7",
-    choice3: "5",
-    choice4: "9",
-    answer: 3,
-}, {
     question: "What does GDP stand for?",
     choice1: "Good day people",
     choice2: "Gross domestic product",
     choice3: "Giga Dictatorship Party",
     choice4: "Good day pal",
     answer: 2,
-}];
+},{
+    question: "How long is an Olympic swimming pool?",
+    choice1: "50m",
+    choice2: "45m",
+    choice3: "60m",
+    choice4: "75m",
+    answer: 1,
+},];
 
 /*Declaring points per 'right' answer*/
 const SCORE_POINTS = 100;
 
 /*Declaring questions limit*/
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 5;
 
 /* Short comand syntax for the startGame function
     Setting start of game variables */
