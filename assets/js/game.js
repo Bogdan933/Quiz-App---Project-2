@@ -12,7 +12,7 @@ let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-let timeLeft = 20;
+
 /*Declaring questions variable*/
 let questions = [{
     question: 'What is 30 + 40?',
@@ -163,56 +163,3 @@ startGame();
 
 /* timer and score decrement based on passed time */
 
-function select(number) {
-    if (gameOver) return;
-    const progressBarFull = document.getElementById("progressbarFull");
-    clearTimeout(timerId);
-
-    if (currentQuestion.correctAnswer === number) {
-        score += 10;
-        progressBarFull.style.width = `${(questionCounter + 1) *20}%`;
-        scoreText.innerText = score;
-    }
-    questionCounter++;
-    if (questionCounter >= MAX_QUESTIONS) {
-        gameOver = true;
-        return;
-    }
-    currentQuestion = questions[questionCounter];
-    questionText.innerText = currentQuestion.question;
-    choice1.innerText = currentQuestion.choices[0];
-    choice2.innerText = currentQuestion.choices[1];
-    choice3.innerText = currentQuestion.choices[2];
-    choice4.innerText = currentQuestion.choices[3];
-
-    //Code to add timer
-    const timeLimit = 5000;
-    timerId = setTimeout(() => {
-        score -= 10;
-        scoreText.innerText = score;
-        questionCounter++;
-        currentQuestion = questions[questionCounter];
-        questionText.innerText = currentQuestion.question;
-        choice1.innerText = currentQuestion.choices[0];
-        choice2.innerText = currentQuestion.choices[1];
-        choice3.innerText = currentQuestion.choices[2];
-        choice4.innerText = currentQuestion.choices[3];
-    }, timeLimit);
-}
-
-const timeDisplay = document.getElementById("time");
-
-function updateTime() {
-    timeLeft--;
-    timeDisplay.innerText = timeLeft;
-    if (timeLeft === 0) {
-        decreaseScore();
-        timeLeft = 20; //reseting time
-    }
-}
-
-setInterval(updateTime, 1000); //caling updateTime every 1 second
-
-function decreaseScore() {
-
-}
