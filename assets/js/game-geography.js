@@ -15,12 +15,12 @@ let availableQuestions = [];
 
 /*Declaring questions variable*/
 let questions = [{
-    question: 'What is 30 + 40?',
-    choice1: '10',
-    choice2: '100',
-    choice3: '55',
-    choice4: '70',
-    answer: 4,
+    question: 'What is the name of the longest river in Africa?',
+    choice1: 'Nile River',
+    choice2: 'Amazon River',
+    choice3: 'Mekong River',
+    choice4: 'Volga River',
+    answer: 1,
 }, {
     question: "What is the smallest country in the world?",
     choice1: "The Vatican",
@@ -29,26 +29,26 @@ let questions = [{
     choice4: "France",
     answer: 1,
 }, {
-    question: "The famous line 'Who you gonna call' is from what movie?",
-    choice1: "Rambo",
-    choice2: "Ghost Busters",
-    choice3: "Terminator",
-    choice4: "Police Academy",
-    answer: 2,
-}, {
-    question: "The four leaf clover represents what?",
-    choice1: "Eternal Love",
-    choice2: "Power",
-    choice3: "Bad Omen",
-    choice4: "Luck",
+    question: "What U.S. state is home to no documented poisonous snakes?",
+    choice1: "Kansas",
+    choice2: "Texas",
+    choice3: "San Francisco",
+    choice4: "Alaska",
     answer: 4,
 }, {
-    question: "What is the biggest organ in the body",
-    choice1: "Head",
-    choice2: "Skin",
-    choice3: "Leg",
-    choice4: "Stomach",
-    answer: 2,
+    question: "What is the capital of Canada?",
+    choice1: "Vancouver",
+    choice2: "Ontario",
+    choice3: "Ottawa",
+    choice4: "Toronto",
+    answer: 3,
+}, {
+    question: "What country has the most natural lakes?",
+    choice1: "Russia",
+    choice2: "Africa",
+    choice3: "Brazil",
+    choice4: "Canada",
+    answer: 4,
 },];
 
 /*Declaring points per 'right' answer*/
