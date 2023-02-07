@@ -125,8 +125,7 @@ It took several attempts to identify since inside the javascript file game.js li
 After all file paths were thoroughly checked, the website could load everything. This fixed the issue.
 
 Bug 5.
-Update 1:
-- Trying to get the timer to reset after each question is being answered.
+
 
 ### Validator Testing 
 
