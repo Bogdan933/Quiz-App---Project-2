@@ -22,7 +22,7 @@ let questions = [{
     choice4: 'Whole in One',
     answer: 2,
 }, {
-    question: "What’s the national sport of Canada?",
+    question: "What is the national sport of Canada?",
     choice1: "Lacrosse",
     choice2: "Hockey",
     choice3: "Frisbee",
@@ -48,7 +48,7 @@ let questions = [{
 const SCORE_POINTS = 100;
 
 /*Declaring questions limit*/
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 5;
 
 /* Short comand syntax for the startGame function
     Setting start of game variables */

@@ -97,6 +97,22 @@ i.fas.fa-star {
     margin-left: 1rem;
 }
 
+i.fa-solid.fa-earth-americas{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+i.fa-solid.fa-plus{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+i.fa-solid.fa-medal{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+
 /* Game final score */
 .end-form-container {
     width: 100%;
