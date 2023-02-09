@@ -2,12 +2,15 @@
     background-color: #294D4A
 }
 
-
-.container-sports {
-    background-image: url("https://i.imgur.com/p5racXp.jpg");
+.container {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.container-sports {
+    background-image: url("https://i.imgur.com/p5racXp.jpg");
+    
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -17,23 +20,18 @@
 
 .container-math {
     background-image: url("https://i.imgur.com/bI6iENR.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 .container-geo {
     background-image: url("https://i.imgur.com/ckNpRub.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     
 }
 
-.geo-hud {
-    font-size: 3.4rem;
+.geo-hud, .geo-question {
+    text-shadow: 0px 0px 8px #ffffff;
     color: black;
-    margin-bottom: 5rem;
+    
 }
 
 /* animated fact container*/
