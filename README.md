@@ -5,32 +5,27 @@ This quiz game is made to awaken curiosity on a wide degree of topics from mathe
 Game is designed for everybody curious no matter the types of questions. The goal of the quiz is to make the player engaged with the different  topics and hopefully with the highscore list the player will try several times to beat his/her own score. 
 
 ## User stories
-- The color combination is soothing and fits with everything.
-- Leaderboard feature is fun to have.
-- Questions were entertaining
-- Progress bar is contrast adds to immersion.
+- As a user, I want to be able to save my score so that I can track   my progress and see how much I have improved over time.
+- As a user, I want to be able to see a highscore list so that I can compare my performance with others and see where I stand in the competition.
+- As a user, I want to be able to select from at least 2 categories so that I can play the quiz game in a subject I am interested in.
+
 
 
 # Wireframes 
+Due to time restraints I didn't have time to create the updated wireframes for each category page, so I will let the initial design from the start.
 Since this application was designed with mobile users in focus I will include the frameworks for mobile devices since it better shows the symmetry.
-- Main page framework
 
-![Main page](https://i.imgur.com/IJrbN5X.png)
-
-- Questions framework
-
-![Questions](https://i.imgur.com/o4ztuJy.png)
-
-- Saving score framework
-
-![Saving score](https://i.imgur.com/1ftDEYD.png)
-
-- leaderboard framework
-
-![leaderboard](https://i.imgur.com/A7vVjYj.png)
+<details>
+<summary>Screenshots</summary>
+<a href="https://imgur.com/A7vVjYj"><img src="https://i.imgur.com/A7vVjYj.png" title="source: imgur.com" /></a>
+<a href="https://i.imgur.com/IJrbN5X.png"><img src="https://i.imgur.com/IJrbN5X.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/1ftDEYD"><img src="https://i.imgur.com/1ftDEYD.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/o4ztuJy"><img src="https://i.imgur.com/o4ztuJy.png" title="source: imgur.com" /></a>
+</details>
+<br>
 
 ## Responsive Mockup
-![Responsive Mockup](https://i.imgur.com/zIOwlmX.png)
+![Responsive Mockup](https://i.imgur.com/CqN4ffY.png)
 
 ## Features 
 
@@ -38,34 +33,49 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-- __Navigation Bar__
+- __The landing page image__
 
   - Play button that initiates the start of the quiz.
   - HighScore button provies the user with a history of scores from other users or an user who played several times. 
 
-![Nav Bar](https://i.imgur.com/MJkkXDM.png)
+![Nav Bar](https://i.imgur.com/RDIiBHE.png)
 
-- __The landing page image__
+- __Categories__
 
-  - This section introduces the user to the question's with soothing colours to grab their attention on the questions from the start.
+- Here the user can choose what type of trivia question they would like to answer.
+
   
-  - User is presented with information on what question they are on and an progress bar indicating the stages of the quiz.
+  - __Mathemathics__
+  - __Geography__
+  - __Sports__
+- Also the option to either view the highscores or go back to main page.
+- The player will also be welcomed by an animated intresting fact based on the category choosen.
+![Landing Page](https://i.imgur.com/oNOIPzX.png)
 
-![Landing Page](https://i.imgur.com/e5Q3PEH.png)
+- __Math category__
+![Landing Page](https://i.imgur.com/50mXOcP.png)
+
+
+- __Geography category__
+![Landing Page](https://i.imgur.com/spx6LGD.png)
+
+
+- __Sports__
+![Landing Page](https://i.imgur.com/XWWwvcK.png)
 
 - __The end game page__
 
   - User is shown his score at the top of the page and is asked to enter name for saving score.
   - User is able to either play again or go home and access the highscore  tab.
 
-![Endgame Page](https://i.imgur.com/V13Q6Kq.png)
+![Endgame Page](https://i.imgur.com/LjRYdSl.png)
 
 
 - __HighScores and Leaderboards__
 
   - After name is saved the player is presented with a ranking list of previous highscored, where the highest points are at the top.
 
-  ![Highscore-Leaderboards](https://i.imgur.com/ZbPquiv.png)
+  ![Highscore-Leaderboards](https://i.imgur.com/v6N1UZ4.png)
 
 # Color Scheme
 
@@ -76,12 +86,7 @@ In this section, you should go over the different parts of your project, and des
 
 ### Features Left to Implement
 
-- Several question added.
-- Longer highscore save list.
-- Highscore button on endgame page.
-- Automatic highscore list display after game ends
-- Show correct answer when wrong then go next question.
-- Different difficulties of questions categorised by difficulty.
+- Add several random facts displayed above the game container, this would require aditional time, something I can add in the future.
 
 ### Testing and fixed Bugs
 - The website was tested manually with Google dev tools on the following devices:
