@@ -79,7 +79,7 @@ In this section, you should go over the different parts of your project, and des
 
 # Color Scheme
 
-- The background color of this project uses a linear gradient that combines four colors. The gradient starts with #C04777 and moves to #E795BA, #EEA8C8, and finally #FFF. The gradient creates a smooth transition from a deep rose to a light peach, ending in white.
+- The background color for the buttons of this project uses a linear gradient that combines four colors. The gradient starts with #C04777 and moves to #E795BA, #EEA8C8, and finally #FFF. The gradient creates a smooth transition from a deep rose to a light peach, ending in white.
 
 ### Features Left to Implement
 
