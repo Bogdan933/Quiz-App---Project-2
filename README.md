@@ -162,7 +162,7 @@ The live link can be found here - https://bogdan933.github.io/Quiz-App---Project
 
 Big credit goes to briandesign, i have edited the css files so each category is a bit unique in its way, with different style so the background with the text can be readable. Given more time i would have reduced the JS files require for the categories so the Game can fetch the necessary questions from 1 JS file based on the category chosen.
 Extensive overhaul edits have been made to the front end aesthetics of the game and the actual game page.
-- [Youtube video](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3747s&ab_channel=BrianDesign)
+- [Briandesign video](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3747s&ab_channel=BrianDesign)
 - I also want to credit my class colleagues Mia and Kayla with feed back on testing and balling some ideas.
 - Extra credit to Mia Rasmussen for assistance in pinpointing small issues in the css code.
 - I want to thank Alexander from the tutor support for helping me pinpoint the deployment issue.
