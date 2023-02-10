@@ -79,10 +79,7 @@ In this section, you should go over the different parts of your project, and des
 
 # Color Scheme
 
-![Color Scheme](https://i.imgur.com/YpbifNr.png)
-- White was used for the text outside buttons for a sharper contrast again the space cadet blue that is the background color.
-
-- The buttons are made from a gradient viridian green to yellow green crayola for a more relaxing look.
+- The background color of this project uses a linear gradient that combines four colors. The gradient starts with #C04777 and moves to #E795BA, #EEA8C8, and finally #FFF. The gradient creates a smooth transition from a deep rose to a light peach, ending in white.
 
 ### Features Left to Implement
 
