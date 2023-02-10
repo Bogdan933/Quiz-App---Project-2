@@ -163,17 +163,13 @@ The live link can be found here - https://bogdan933.github.io/Quiz-App---Project
 
 ## Credits 
 
-I used several videos and stackoverflow threads for inspirations.
-- [Youtube video 1](https://www.youtube.com/watch?v=utC-8xeEQQA&ab_channel=GeeksforGeeks)
-- [Youtube video 2](https://www.youtube.com/watch?v=wk1Fbqh7Tew&ab_channel=BroCode)
-- [Youtube video 3](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3747s&ab_channel=BrianDesign)
-- [Youtube video 4](https://www.youtube.com/watch?v=nCIjHTlztNg&ab_channel=MikeDane)
-- [Stackoverflow](https://stackoverflow.com/questions/68687270/increment-score-in-a-quiz-game-based-on-selecting-the-right-answers-with-an-obje) inspiration for points increment.
-- [Stackoverflow](https://stackoverflow.com/questions/13490002/javascript-loop-in-a-simple-quiz) questions array looping inspiration.
+Big credit goes to briandesign, i have edited the css files so each category is a bit unique in its way, with different style so the background with the text can be readable. Given more time i would have reduced the JS files require for the categories so the Game can fetch the necessary questions from 1 JS file based on the category chosen.
+Extensive overhaul edits have been made to the front end aesthetics of the game and the actual game page.
+- [Youtube video](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3747s&ab_channel=BrianDesign)
 - I also want to credit my class colleagues Mia and Kayla with feed back on testing and balling some ideas.
+- Extra credit to Mia Rasmussen for assistance in pinpointing small issues in the css code.
 - I want to thank Alexander from the tutor support for helping me pinpoint the deployment issue.
-- Incremented score reading was done on this stack Overflow post.
-  [StackOverflow time increment for score](https://stackoverflow.com/questions/29022829/increment-score-using-javascript)
+
 
 ### Content 
 - The text for the Home page was taken from Wikipedia Article A
@@ -206,9 +202,9 @@ The live link can be found here - https://bogdan933.github.io/Quiz-App---Project
 
 
 - Lighthouse mobile score
-<img src="https://i.imgur.com/OIcOfJk.png">
+<img src="https://i.imgur.com/00oePF5.png">
 - Lighthouse Desktop score
-<img src="https://i.imgur.com/AwjharG.png">
+<img src="https://i.imgur.com/8RxHEBC.png">
 
 
 ### Media
